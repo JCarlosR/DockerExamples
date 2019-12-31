@@ -1,0 +1,31 @@
+Definir una imagen
+
+* Dockerfile
+Script Bash -> Imagen
+COPY .sh /
+
+* docker commit CONTENEDOR IMAGEN
+
+---
+
+Proyecto que requiere una configuración previa
+- Instalar dependencias 
+- Asignar permisos a carpetas
+- Definir ciertas variables
+
+* Crear 1 contenedor y conectarnos de forma interactiva
+
+history
+
+apt-get update
+apt-get install nano
+pip
+pip install flask==1.1.1
+flask run
+
+Monolíticas
+Microservicios
+
+Imagen -> app web
+Imagen -> bd
+Imagen -> api
